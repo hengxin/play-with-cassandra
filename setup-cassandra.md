@@ -7,24 +7,27 @@
 
 ### From Tarball
 
-1. Download cassandra
-- [cassandra](http://cassandra.apache.org/download/)
+1. Download
+  - [cassandra](http://cassandra.apache.org/download/)
   
-  Official Apache Cassandra.
-- [planetcassandra](http://www.planetcassandra.org/cassandra/)
+    Official Apache Cassandra.
+  - [planetcassandra](http://www.planetcassandra.org/cassandra/)
 
-  Including both the official Apache Cassandra and some vendor-provided Cassandra distributions, 
-  like DataStax Distribution of Apache Cassandra (DDC), Stratio Cassandra, and DataStax Enterprise.
+    Including both the official Apache Cassandra and some vendor-provided Cassandra distributions, 
+    like DataStax Distribution of Apache Cassandra (DDC), Stratio Cassandra, and DataStax Enterprise.
   
   > We choose the DataStax Distribution. As of writing, it is `datastax-ddc-3.5.0-bin.tar.gz`.
   
 2. Unzip
-`tar -xvzf datastax-ddc-3.5.0-bin.tar.gz`
+
+  `tar -xvzf datastax-ddc-3.5.0-bin.tar.gz`
 
 3. Run cassandra
-`bin/cassandra -f`
+
+  `bin/cassandra -f`
 
 4. Run cqlsh
-`bin/cqlsh`
+
+  `bin/cqlsh`
 
 ### Build from Sources
