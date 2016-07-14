@@ -16,7 +16,7 @@
     Including both the official Apache Cassandra and some vendor-provided Cassandra distributions, 
     like DataStax Distribution of Apache Cassandra (DDC), Stratio Cassandra, and DataStax Enterprise.
   
-  > We choose the DataStax Distribution. As of writing, it is `datastax-ddc-3.5.0-bin.tar.gz`.
+  > As of writing, it is `datastax-ddc-3.5.0-bin.tar.gz`.
   
 2. Unzip
 
@@ -31,3 +31,5 @@
   `bin/cqlsh`
 
 ### Build from Sources
+
+## Configuring Multinode Clusters
